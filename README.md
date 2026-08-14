@@ -1,0 +1,2 @@
+# Credit-Card-Fraud-Detection-Analytics-Rule-Engine-Optimization
+End-to-end Credit Card Fraud Analytics &amp; Detection system built with SQL, Python and Power BI. Features heuristic rule evaluation, 2x2 confusion matrix diagnostics, and more. Interactive Power BI risk operations terminal to optimize credit card fraud detection heuristics, reduce customer friction, and profile high-risk transaction spikes. 
