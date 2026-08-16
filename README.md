@@ -27,10 +27,10 @@
 
 ---
 
-## 📊 Executive Summary (STAR Framework)
+## 📊 Executive Summary
 
 ### **SITUATION** 
-A financial services organization processes **1.3 million credit card transactions** daily across diverse merchant categories and customer segments. The organization faces significant fraud exposure with evolving threats including velocity-based attacks, impossible travel patterns, and late-night high-risk transactions. Historical fraud rates of **0.5-2% per category** resulted in substantial financial losses and customer dissatisfaction.
+A financial services organization processes **1.3 million credit card transactions** across diverse merchant categories and customer segments. The organization faces significant fraud exposure with evolving threats including velocity-based attacks, impossible travel patterns, and late-night high-risk transactions. Historical fraud rates of **0.5-2% per category** resulted in substantial financial losses and customer dissatisfaction.
 
 ### **TASK**
 Design and implement a **rule-based fraud detection system** that:
