@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [Executive Summary (STAR Framework)](#executive-summary-star-framework)
+- [Executive Summary](#executive-summary)
 - [Project Context & Scope](#project-context--scope)
 - [Pipeline Architecture](#pipeline-architecture)
 - [Tab 1: Executive Financial View](#tab-1-executive-financial-view)
@@ -28,18 +28,19 @@
 ---
 
 ## 📊 Executive Summary
+Built an end-to-end fraud analytics and SQL-driven fraud detection system around 1.29M credit-card transactions. Used Python(Pandas) to perform inspection, extraction, cleaning, and the whole ETL process. Used SQL to perform analytical processing and the rule-based fraud engine. Used Power BI to make executive and fraud/risk-operations dashboards. The system produced explainable transaction-level risk scores and rule flags. Finally, generated some actionable insights on what further work can be done.
 
-### **SITUATION** 
-A financial services organization processes **1.3 million credit card transactions** across diverse merchant categories and customer segments. The organization faces significant fraud exposure with evolving threats including velocity-based attacks, impossible travel patterns, and late-night high-risk transactions. Historical fraud rates of **0.5-2% per category** resulted in substantial financial losses and customer dissatisfaction.
+#### **SITUATION** 
+A Credit card company processes **1.29 million credit card transactions** across diverse merchant categories and customer segments. The organization faces significant fraud exposure with evolving threats having behavioral patterns like velocity-based attacks, impossible travel patterns, and late-night high-risk transactions. Historical fraud rates of **0.15-2% per category** resulted in heavy financial losses and customer dissatisfaction.
 
-### **TASK**
+#### **TASK**
 Design and implement a **rule-based fraud detection system** that:
 - Identifies fraudulent transactions in real-time with minimal false positives
 - Provides actionable intelligence for risk analysts
 - Enables executive-level financial visibility into fraud exposure
 - Maintains system precision while maximizing fraud detection rates
 
-### **ACTION**
+#### **ACTION**
 **Built an end-to-end fraud analytics platform:**
 
 1. **ETL Pipeline (Python + Pandas)**
@@ -57,13 +58,12 @@ Design and implement a **rule-based fraud detection system** that:
    - Risk operations dashboard with rule performance and drill-down capabilities
    - Customer and merchant risk profiling
 
-### **RESULT**
+#### **RESULT**
 - ✅ **$3.81M fraud intercepted** out of $3.99M exposure (95.5% catch rate)
 - ✅ **Precision: 92.3%** | **Recall: 87.6%** | **False Positive Rate: 2.1%**
 - ✅ **Late-night transactions**: 65% fraud detection with 15.2% rule precision
 - ✅ **Impossible Travel Rule**: 8x higher fraud rate identified (4.2% vs 0.5% baseline)
-- ✅ **Processing Speed**: <500ms for 1.3M transaction analysis
-- ✅ **Operational Impact**: Reduced investigation time by 70% through automated risk scoring
+- ✅ **Operational Impact**: Reduced investigation time through automated risk scoring
 
 ---
 
