@@ -28,10 +28,10 @@
 ---
 
 ## 📊 Executive Summary
-Built an end-to-end fraud analytics and SQL-driven fraud detection system around 1.29M credit-card transactions. Used Python(Pandas) to perform inspection, extraction, cleaning, and the whole ETL process. Used SQL to perform analytical processing and the rule-based fraud engine. Used Power BI to make executive and fraud/risk-operations dashboards. The system produced explainable transaction-level risk scores and rule flags. Finally, generated some actionable insights on what further work can be done.
+Built an end-to-end fraud analytics and SQL-driven fraud detection system for 1.29M credit-card transactions. Used Python(Pandas) to perform inspection, extraction, cleaning, and the entire ETL process. Used SQL to perform analytical processing and the rule-based fraud engine. Used Power BI to create executive and fraud/risk operations dashboards. The system produced explainable transaction-level risk scores and rule flags. Finally, generated some actionable insights on what further work can be done.
 
 #### **SITUATION** 
-A Credit card company processes **1.29 million credit card transactions** across diverse merchant categories and customer segments. The organization faces significant fraud exposure with evolving threats having behavioral patterns like velocity-based attacks, impossible travel patterns, and late-night high-risk transactions. Historical fraud rates of **0.15-2% per category** resulted in heavy financial losses and customer dissatisfaction.
+A Credit card company processes **1.29 million credit card transactions** across diverse merchant categories and customer segments. The organization faces significant fraud exposure, with evolving threats exhibiting behavioral patterns such as velocity-based attacks, impossible travel, and late-night high-risk transactions. Historical fraud rates of **0.15-2% per category** resulted in heavy financial losses and customer dissatisfaction.
 
 #### **TASK**
 Design and implement a **rule-based fraud detection system** that:
